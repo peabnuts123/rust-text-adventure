@@ -213,7 +213,7 @@ fn main() {
                         // Items removed
                         if dto.items_removed.len() > 0 {
                             println!("Items removed:");
-                            for item_name in &dto.items_added {
+                            for item_name in &dto.items_removed {
                                 println!("- {}", &item_name);
                             }
                         }
@@ -237,7 +237,7 @@ fn main() {
                         // Items removed
                         if dto.items_removed.len() > 0 {
                             println!("Items removed:");
-                            for item_name in &dto.items_added {
+                            for item_name in &dto.items_removed {
                                 println!("- {}", &item_name);
                             }
                         }
